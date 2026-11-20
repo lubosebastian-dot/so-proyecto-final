@@ -32,10 +32,10 @@
 
 | Pregunta | Respuesta | Enlace oficial |
 |---|---|---|
-| Versión elegida y fecha de lanzamiento | Alpine Linux (rama estable más reciente; verificar versión/tag y fecha de lanzamiento en el sitio oficial) | https://alpinelinux.org/releases/ |
-| Hasta cuándo recibe actualizaciones de seguridad | Verificar la fecha de fin de soporte de la rama elegida en la tabla oficial de releases de Alpine | https://alpinelinux.org/releases/ |
-| Requisitos de hardware y funcionamiento en VirtualBox | Imagen base ligera de contenedor ejecutada sobre Docker Engine en `g07-consola` dentro de VirtualBox; usa `apk` para instalar `git`, `curl`, editor y compilador. | https://docs.docker.com/engine/install/ |
-| Particionado manual en el instalador | No aplica a una imagen base de contenedor. | https://alpinelinux.org/releases/ |
-| Guía oficial para instalar Docker Engine | Docker Engine se instala en la VM de consola (`g07-consola`) siguiendo la documentación oficial de Docker. | https://docs.docker.com/engine/install/ |
-| Imagen base en Docker Hub | Sí, imagen oficial `alpine` disponible en Docker Hub. | https://hub.docker.com/_/alpine |
+| Versión elegida y fecha de lanzamiento | Alpine Linux v3.24 (`alpine:3.24`, rama estable más reciente iniciada el 9 de junio de 2026; versión puntual 3.24.4 lanzada el 5 de noviembre de 2026). | https://alpinelinux.org/releases/ |
+| Hasta cuándo recibe actualizaciones de seguridad | Recibe actualizaciones de seguridad hasta el 1 de junio de 2028. | https://alpinelinux.org/releases/ |
+| Requisitos de hardware y funcionamiento en VirtualBox | Imagen minimalista de contenedor (aprox. 8 MB) que corre sobre Docker Engine dentro de `g07-consola` en VirtualBox; utiliza el gestor de paquetes `apk` para instalar `git`, `curl`, editor y compilador. | https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management |
+| Particionado manual en el instalador | No aplica a una imagen base de contenedor en Docker. | https://alpinelinux.org/about/ |
+| Guía oficial para instalar Docker Engine | Docker Engine se instala en el sistema anfitrión de contenedores (`g07-consola` con Rocky Linux) siguiendo la documentación oficial de Docker. | https://docs.docker.com/engine/install/ |
+| Imagen base en Docker Hub | Sí, existe la imagen oficial `alpine` mantenida en Docker Hub con etiquetas por versión estable (`alpine:3.24` / `alpine:latest`). | https://hub.docker.com/_/alpine |
 
