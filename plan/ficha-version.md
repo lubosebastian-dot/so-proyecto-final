@@ -10,10 +10,10 @@
 |---|---|---|
 | Versión elegida y fecha de lanzamiento | Xubuntu 26.10 (versión intermedia más reciente), lanzada el 15 de octubre de 2026. | https://xubuntu.org/releases/ |
 | Hasta cuándo recibe actualizaciones de seguridad | Hasta el 15 de julio de 2027 (9 meses de soporte oficial por ser una versión intermedia) | https://xubuntu.org/releases/ |
-| Requisitos de hardware y funcionamiento en VirtualBox | Compatible con VirtualBox 7.x; para el proyecto se configuran 2 a 4 GB de RAM, 25 GB de disco y 2 CPU (con 128 MB de memoria de vídeo en la VM gráfica). Verificar requisitos detallados en el sitio oficial. | https://xubuntu.org/ |
+| Requisitos de hardware y funcionamiento en VirtualBox | Compatible con VirtualBox 7.x. Es una distribución ligera (Lightweight) cuyos requisitos mínimos son procesador de 64 bits, 1 GB de RAM y 8.6 GB de disco (recomendados: doble núcleo a 1.5 GHz, 2 GB de RAM y 20 GB de disco). La configuración del proyecto (2 a 4 GB de RAM, 25 GB de disco, 2 CPU y 128 MB de vídeo) supera lo recomendado. | https://xubuntu.org/download/ |
 | Particionado manual en el instalador | Sí, permite particionado manual para crear `/`, `swap` y `/home` sin borrar el disco con particiones automáticas. | https://xubuntu.org/ |
-| Guía oficial para instalar Docker Engine | Existe guía oficial para la familia Ubuntu/Debian (en este proyecto Docker Engine se instala en la VM de consola). | https://docs.docker.com/engine/install/ubuntu/ |
-| Imagen base del Dockerfile en Docker Hub | No aplica como imagen base del Dockerfile del Grupo 07 (corresponde Alpine). | https://hub.docker.com/ |
+| Guía oficial para instalar Docker Engine | Sí. Existe guía oficial para Ubuntu 26.10 (64-bit), sistema base de Xubuntu 26.10, con instrucciones de instalación mediante repositorio apt, paquetes .deb o script. | https://docs.docker.com/engine/install/ubuntu/ |
+| Imagen base del Dockerfile en Docker Hub | No aplica Ubuntu/Xubuntu como imagen base del Dockerfile del contenedor (corresponde Alpine, disponible como imagen oficial en Docker Hub). | https://hub.docker.com/ |
 
 ---
 
