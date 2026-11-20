@@ -1,6 +1,6 @@
 # Ficha de verificación de versión - Grupo 07
 
-*Fecha de consulta de fuentes oficiales: 20 de noviembre de 2026.*
+*Fecha de consulta de fuentes oficiales: 19 de noviembre de 2026.*
 
 ---
 
