@@ -3,9 +3,9 @@
 ## Distribución gráfica: Xubuntu (`g07-grafica`)
 | Pregunta | Respuesta | Enlace oficial |
 |---|---|---|
-| Versión elegida y fecha de lanzamiento | [Indicar versión estable/LTS elegida y fecha de lanzamiento] | https://xubuntu.org/ |
-| Hasta cuándo recibe actualizaciones de seguridad | [Indicar fecha o ciclo de soporte LTS] | https://xubuntu.org/ |
-| Requisitos de hardware y funcionamiento en VirtualBox | [Indicar requisitos (2 a 4 GB RAM, 25 GB disco, 2 CPU) y compatibilidad con VirtualBox] | https://xubuntu.org/ |
+| Versión elegida y fecha de lanzamiento | Xubuntu 26.10, 15 de octubre de 2026 | https://xubuntu.org/ |
+| Hasta cuándo recibe actualizaciones de seguridad | Hasta el 15 de julio de 2027 | https://xubuntu.org/release/26.10/ |
+| Requisitos de hardware y funcionamiento en VirtualBox | La página oficial no brinda información sobre esto. Más sin embargo de  | https://xubuntu.org/ |
 | Particionado manual en el instalador | [Indicar si permite particionado manual para /, swap y /home] | https://xubuntu.org/ |
 | Guía oficial para instalar Docker Engine | [Indicar guía oficial de la familia Debian/Ubuntu] | https://docs.docker.com/engine/install/ |
 | Imagen base del Dockerfile en Docker Hub | [No aplica directamente como imagen base del Dockerfile; aplica Alpine] | https://hub.docker.com/ |
