@@ -21,14 +21,12 @@
 
 | Pregunta | Respuesta | Enlace oficial |
 |---|---|---|
-| Versión elegida y fecha de lanzamiento | Rocky Linux 10 (rama estable más reciente; verificar versión menor y fecha de lanzamiento en la documentación oficial) | https://docs.rockylinux.org/ |
-| Hasta cuándo recibe actualizaciones de seguridad | Verificar las fechas de soporte activo y soporte de seguridad en la documentación oficial de Rocky Linux | https://docs.rockylinux.org/ |
-| Requisitos de hardware y funcionamiento en VirtualBox | Compatible con VirtualBox 7.x; se configura con disco de 25 GB, 2 CPU y 2 GB de RAM al instalarla (3 GB en el Sprint 3 para Kubernetes). | https://docs.rockylinux.org/ |
-| Particionado manual en el instalador | Sí, mediante particionado personalizado para crear `/`, `swap`, `/home` y `/var` (mínimos de referencia: `/` 5 GB, `/var` 10 GB, `swap` 1 GB y `/home` 1 GB). | https://docs.rockylinux.org/ |
-| Guía oficial para instalar Docker Engine | Sí, mediante la guía oficial de Docker Engine para distribuciones basadas en RHEL / Rocky Linux. | https://docs.docker.com/engine/install/rhel/ |
-| Imagen base del Dockerfile en Docker Hub | No aplica como imagen base del Dockerfile del Grupo 07 (corresponde Alpine). | https://hub.docker.com/ |
-
----
+| Versión elegida y fecha de lanzamiento | Rocky Linux 10 (rama estable más reciente, con release menor 10.3 lanzada el 16 de noviembre de 2026; rama 10 lanzada inicialmente el 11 de junio de 2025). | https://docs.rockylinux.org/10/releases/ |
+| Hasta cuándo recibe actualizaciones de seguridad | Recibe soporte activo hasta el 31 de mayo de 2030 y actualizaciones de seguridad hasta el 31 de mayo de 2035. | https://docs.rockylinux.org/10/releases/ |
+| Requisitos de hardware y funcionamiento en VirtualBox | Requisitos mínimos oficiales: arquitectura x86_64-v3, 2 CPU, 2 GB de RAM y 20 GB de almacenamiento. Funciona correctamente en VirtualBox 7.x; se configura con disco de 25 GB, 2 CPU y 2 GB de RAM iniciales (aumentando a 3 GB en el Sprint 3 para Kubernetes). | https://docs.rockylinux.org/10/guides/installation/ |
+| Particionado manual en el instalador | Sí, mediante la opción de almacenamiento personalizado (*Custom*) del instalador Anaconda, permitiendo configurar `/`, `swap`, `/home` y `/var` (mínimos de referencia: `/` 5 GB, `/var` 10 GB, `swap` 1 GB y `/home` 1 GB). | https://docs.rockylinux.org/10/guides/installation/ |
+| Guía oficial para instalar Docker Engine | Sí, mediante la guía oficial de Docker Engine para distribuciones basadas en RHEL / Rocky Linux utilizando el gestor de paquetes `dnf` y el repositorio oficial de Docker. | https://docs.docker.com/engine/install/rhel/ |
+| Imagen base del Dockerfile en Docker Hub | No aplica como imagen base del Dockerfile del Grupo 07 (corresponde Alpine Linux). | https://hub.docker.com/ |
 
 ## 3. Imagen base del Dockerfile: Alpine Linux
 
