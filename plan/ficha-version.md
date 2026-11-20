@@ -8,8 +8,8 @@
 
 | Pregunta | Respuesta | Enlace oficial |
 |---|---|---|
-| Versión elegida y fecha de lanzamiento | Xubuntu 26.10 (versión intermedia más reciente; verificar fecha exacta de lanzamiento y comparar frente a la LTS vigente en la página oficial) | https://xubuntu.org/releases/ |
-| Hasta cuándo recibe actualizaciones de seguridad | Verificar el periodo de soporte de seguridad de Xubuntu 26.10 en la documentación oficial (las versiones intermedias tienen un ciclo de soporte más corto que las LTS) | https://xubuntu.org/releases/ |
+| Versión elegida y fecha de lanzamiento | Xubuntu 26.10 (versión intermedia más reciente), lanzada el 15 de octubre de 2026. | https://xubuntu.org/releases/ |
+| Hasta cuándo recibe actualizaciones de seguridad | Hasta el 15 de julio de 2027 (9 meses de soporte oficial por ser una versión intermedia) | https://xubuntu.org/releases/ |
 | Requisitos de hardware y funcionamiento en VirtualBox | Compatible con VirtualBox 7.x; para el proyecto se configuran 2 a 4 GB de RAM, 25 GB de disco y 2 CPU (con 128 MB de memoria de vídeo en la VM gráfica). Verificar requisitos detallados en el sitio oficial. | https://xubuntu.org/ |
 | Particionado manual en el instalador | Sí, permite particionado manual para crear `/`, `swap` y `/home` sin borrar el disco con particiones automáticas. | https://xubuntu.org/ |
 | Guía oficial para instalar Docker Engine | Existe guía oficial para la familia Ubuntu/Debian (en este proyecto Docker Engine se instala en la VM de consola). | https://docs.docker.com/engine/install/ubuntu/ |
