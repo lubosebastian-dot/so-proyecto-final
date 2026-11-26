@@ -15,9 +15,9 @@ Montar dos máquinas virtuales Linux en VirtualBox, configurar sus servicios y s
 ## Integrantes
 | Nombre | Usuario GitHub | Rol / Aporte principal |
 |---|---|---|
-| [Integrante 1] | `Sebastian Lubo` | [Rol] |
-| [Integrante 2] | `Adrián Camilo Balanta` | [Rol] |
-| [Integrante 3] | `Emmanuel Ortiz` | [Rol] |
+| [Integrante 1] | `Sebastian Lubo` | [Seguridad, scripts y procesos] |
+| [Integrante 2] | `Adrián Camilo Balanta` | [Coordinación, repositorio y VMs/red] |
+| [Integrante 3] | `Emmanuel Ortiz` | [docker, kubernetes y sitio web] |
 
 ## Distribuciones asignadas
 * **VM Gráfica (`gNN-grafica`):** [Distribución]
