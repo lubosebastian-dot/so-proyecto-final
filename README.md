@@ -13,10 +13,12 @@
 Montar dos máquinas virtuales Linux en VirtualBox, configurar sus servicios y seguridad, publicar una imagen propia en Docker Hub, desplegarla en Kubernetes y documentar el proceso en este sitio web.
 
 ## Integrantes
+
+| Nombre | Usuario GitHub | Rol / Aporte principal |
 |---|---|---|
-| [Sebastian Lubo] | `lubosebastian-dot` | [Seguridad, scripts y procesos] |
-| [Adrián Camilo Balanta] | `Gared-IV` | [Coordinación, repositorio y VMs/red] |
-| [mmanuel Ortiz] | `Astaroth607` | [docker, kubernetes y sitio web] |
+| Sebastian Lubo | `lubosebastian-dot` | Seguridad, scripts y procesos |
+| Adrián Camilo Balanta | `Gared-iv` | Coordinación, repositorio y VMs/red |
+| Emmanuel Ortiz | `Astaroth607` | Docker, Kubernetes y sitio web |
 
 ## Distribuciones asignadas
 * **VM Gráfica (`gNN-grafica`):** [Distribución]
