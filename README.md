@@ -1,6 +1,6 @@
 # Proyecto Final — Sistemas Operativos (Semestre 2-2026)
 
-**Universidad del Valle** | **Grupo:** [Tu número de grupo]
+**Universidad del Valle** | **Grupo:** [7]
 
 ## Navegación
 * [Plan de trabajo](plan/plan-de-trabajo.md)
@@ -13,11 +13,10 @@
 Montar dos máquinas virtuales Linux en VirtualBox, configurar sus servicios y seguridad, publicar una imagen propia en Docker Hub, desplegarla en Kubernetes y documentar el proceso en este sitio web.
 
 ## Integrantes
-| Nombre | Usuario GitHub | Rol / Aporte principal |
-|---|---|---|
-| [Integrante 1] | `Sebastian Lubo` | [Seguridad, scripts y procesos] |
-| [Integrante 2] | `Adrián Camilo Balanta` | [Coordinación, repositorio y VMs/red] |
-| [Integrante 3] | `Emmanuel Ortiz` | [docker, kubernetes y sitio web] |
+
+| [Sebastian Lubo] | `lubosebastian-dot` | [Seguridad, scripts y procesos] |
+| [Adrián Camilo Balanta] | `Gared-IV` | [Coordinación, repositorio y VMs/red] |
+| [mmanuel Ortiz] | `Astaroth607` | [docker, kubernetes y sitio web] |
 
 ## Distribuciones asignadas
 * **VM Gráfica (`gNN-grafica`):** [Distribución]
